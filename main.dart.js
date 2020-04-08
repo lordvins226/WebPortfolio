@@ -8282,12 +8282,11 @@ return t==null?null:t.f},
 j0:function j0(a,b,c){this.f=a
 this.b=b
 this.a=c},
-ya:function ya(a,b,c,d,e){var _=this
-_.f=a
-_.r=b
-_.x=c
-_.y=d
-_.a=e},
+ya:function ya(a,b,c,d){var _=this
+_.r=a
+_.x=b
+_.y=c
+_.a=d},
 LP:function LP(a,b){this.a=a
 this.b=b},
 Ci:function Ci(a,b,c,d){var _=this
@@ -39532,12 +39531,12 @@ X.Cg.prototype={}
 X.B0.prototype={}
 X.Cf.prototype={}
 E.ya.prototype={
-G:function(a){var t,s,r,q=this,p={},o=T.Yp(a,C.q,!1)
-p.a=q.y
-t=q.r
-s=t?E.Wb(a):q.f
-r=F.Wx(o,s,C.a5,q.x,null,new E.LP(p,o))
-return t&&s!=null?new E.j0(null,r,null):r}}
+G:function(a){var t,s,r,q=null,p={},o=T.Yp(a,C.q,!1)
+p.a=this.y
+t=this.r
+s=t?E.Wb(a):q
+r=F.Wx(o,s,C.a5,this.x,q,new E.LP(p,o))
+return t&&s!=null?new E.j0(q,r,q):r}}
 E.LP.prototype={
 $2:function(a,b){return new E.Ci(this.b,b,this.a.a,null)},
 $C:"$2",
@@ -39991,20 +39990,18 @@ v:function(){this.d.v()
 this.br()},
 zg:function(){var t=null
 return H.b([L.Tb(new K.PM(),"Projects"),new T.bA(5,t,t,t),L.Tb(new K.PN(),"Links"),new T.bA(5,t,t,t),L.Tb(new K.PO(),"Contact")],u.E)},
-G:function(a){var t,s,r,q,p,o,n,m=null
+G:function(a){var t,s,r,q,p,o=null
 if(F.b8(a,!1).a.a<800){t=this.zg()
 s=P.bg([null,0],u.qI,u.S)
 r=t.length
-t=new Z.uK(new B.vL(new G.LU(!0,!0,!0,t,s),C.tQ,C.q,!1,m,!0,C.qj,!1,m,r,C.a5,C.vV,m),m)}else t=m
+t=new Z.uK(new B.vL(new G.LU(!0,!0,!0,t,s),C.tQ,C.q,!1,o,!0,C.qj,!1,o,r,C.a5,C.vV,o),o)}else t=o
 s=new P.aZ(40,40)
 s=E.Vq(C.c9,L.Vx(C.u4),!1,new K.PL(),new X.bR(C.r,new K.bu(s,s,s,s)))
-r=this.d
-q=P.cK(0,0,1)
-p=F.b8(a,!1).a.b*0.1
-o=u.E
-o=B.xL(T.EQ(H.b([new Q.w9(this.zg(),m),new T.bA(m,F.b8(a,!1).a.b*0.1,m,m),new O.x4(T.EQ(H.b([L.dr("Hello.\nI'm Kevin Wilfried ",m,A.e4(m,m,C.c9,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m),m,2),L.dr("Web Frontend & Mobile Dev",m,A.e4(m,m,C.j,m,m,m,m,m,m,m,m,m,m,C.nI,m,m,!0,m,m,m,m,m,m),m,3),new T.bA(m,10,m,m),L.dr("I am enthusiastic about mobile development and Blockchain.\nI want to make africains life better using tech.\nA computer systems and network student interested\nin challenges which require designing solutions that can make\na significant impact in people lives like blockchain and DApps",!0,A.e4(m,m,C.j,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m),m,1.5),new T.bA(m,20,m,m),T.j5(H.b([D.Tk(L.dr("Github",m,m,m,m),C.vj,new O.K3(),new V.aE(10,10,10,10),new S.cr(C.r)),new T.bA(5,m,m,m),D.Tk(L.dr("Linkedin",m,m,m,m),C.c9,new O.K4(),new V.aE(10,10,10,10),new S.cr(C.r)),new T.bA(20,m,m,m)],o),C.ap,C.l8,C.am)],o),C.fX,C.bd,C.am),m),new T.bA(m,F.b8(a,!1).a.b*0.2,m,m),new B.ym(m)],o),C.ap,C.bd,C.am),m)
-n=r==null&&!0
-return B.xL(new M.pn(new E.mO(0,C.k,new P.V(1/0,56),m),new E.ya(r,n,new D.wl(m),new G.mF(new V.aE(p,p,p,p),o,C.ba,q,m,m),m),s,t,C.k,m),m)}}
+r=P.cK(0,0,1)
+q=F.b8(a,!1).a.b*0.1
+p=u.E
+p=B.xL(T.EQ(H.b([new Q.w9(this.zg(),o),new T.bA(o,F.b8(a,!1).a.b*0.1,o,o),new O.x4(T.EQ(H.b([L.dr("Hello.\nI'm Kevin Wilfried ",o,A.e4(o,o,C.c9,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o),o,2),L.dr("Web Frontend & Mobile Dev",o,A.e4(o,o,C.j,o,o,o,o,o,o,o,o,o,o,C.nI,o,o,!0,o,o,o,o,o,o),o,3),new T.bA(o,10,o,o),L.dr("I am enthusiastic about mobile development and Blockchain.\nI want to make africains life better using tech.\nA computer systems and network student interested\nin challenges which require designing solutions that can make\na significant impact in people lives like blockchain and DApps",!0,A.e4(o,o,C.j,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o),o,1.5),new T.bA(o,20,o,o),T.j5(H.b([D.Tk(L.dr("Github",o,o,o,o),C.vj,new O.K3(),new V.aE(10,10,10,10),new S.cr(C.r)),new T.bA(5,o,o,o),D.Tk(L.dr("Linkedin",o,o,o,o),C.c9,new O.K4(),new V.aE(10,10,10,10),new S.cr(C.r)),new T.bA(20,o,o,o)],p),C.ap,C.l8,C.am)],p),C.fX,C.bd,C.am),o),new T.bA(o,F.b8(a,!1).a.b*0.2,o,o),new B.ym(o)],p),C.ap,C.bd,C.am),o)
+return B.xL(new M.pn(new E.mO(0,C.k,new P.V(1/0,56),o),new E.ya(!0,new D.wl(o),new G.mF(new V.aE(q,q,q,q),p,C.ba,r,o,o),o),s,t,C.k,o),o)}}
 K.PM.prototype={
 $0:function(){},
 $S:0}
