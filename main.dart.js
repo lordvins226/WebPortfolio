@@ -43546,8 +43546,8 @@ s.push(new Q.x8(null))
 if(!(F.b_(a,!1).a.a<800))s.push(T.jz(this.c,C.aA,C.bq,C.aq))
 return B.zj(T.jz(s,C.aA,t,C.aq),null)}}
 Q.x8.prototype={
-H:function(a){var t=null,s=L.cN("Kevin Wilfried",t,A.d6(t,t,t,t,t,t,t,t,t,t,t,t,t,C.cD,t,t,!0,t,t,t,t,t,t),t,2),r=P.cY(0,0,1)
-return T.jz(H.c([s,new T.bm(10,t,t,t),G.Xo(t,t,S.kx(t,t,t,C.c3,t,t,C.b1),r,20,20)],u.F),C.aA,C.bq,C.aq)}}
+H:function(a){var t=null,s=P.cY(0,0,1)
+return T.jz(H.c([G.Xo(t,t,S.kx(t,t,t,C.c3,t,t,C.b1),s,20,20),new T.bm(10,t,t,t),L.cN("Kevin Wilfried",t,A.d6(t,t,t,t,t,t,t,t,t,t,t,t,t,C.cD,t,t,!0,t,t,t,t,t,t),t,2)],u.F),C.aA,C.bq,C.aq)}}
 O.yJ.prototype={
 Ch:function(a){var t=null,s=F.b_(a,!1).a.a<800?F.b_(a,!1).a.b*0.25:F.b_(a,!1).a.a*0.25,r=F.b_(a,!1).a.a<800?F.b_(a,!1).a.b*0.25:F.b_(a,!1).a.a*0.25
 return M.fp(t,new K.vo(U.wV("assets/avatar.jpg"),t),t,t,t,t,s,t,t,t,r)},
