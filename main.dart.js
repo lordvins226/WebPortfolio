@@ -48495,7 +48495,7 @@ aG:function(){var t=H.c([],u.Be)
 return new E.uA(t,new D.tv(C.nn,new R.aj(H.c([],u.u),u.A)),C.r)}}
 E.uA.prototype={
 KV:function(){var t=this,s=null,r=K.af(t.c,!1).x
-return new Y.he(new T.dH(r,s,s),M.cy(s,T.hB(H.c([new T.jR(1,C.iy,new Z.tw(t.e,new L.qb(s,s,s,s,s,s,"Send a message",s,s,s,s,s,!0,C.p_,!1,C.at,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,s,s,s,s,s,s,s,s,C.kO,!0,s,!1),C.rB,C.rr,C.rs,C.BS,t.gP0(),s),s),M.cy(s,B.Nn(s,L.a_M(C.wf),new E.VE(t),s),s,s,s,s,s,new V.al(4,0,4,0),s,s,s)],u.p),C.as,C.au,C.a7),s,s,s,s,s,C.lp,s,s,s),s)},
+return new Y.he(new T.dH(r,s,s),M.cy(s,T.hB(H.c([new T.jR(1,C.iy,new Z.tw(t.e,new L.qb(s,s,s,s,s,s,"Send message",s,s,s,s,s,!0,C.p_,!1,C.at,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,s,s,s,s,s,s,s,s,C.kO,!0,s,!1),C.rB,C.rr,C.rs,C.BS,t.gP0(),s),s),M.cy(s,B.Nn(s,L.a_M(C.wf),new E.VE(t),s),s,s,s,s,s,new V.al(4,0,4,0),s,s,s)],u.p),C.as,C.au,C.a7),s,s,s,s,s,C.lp,s,s,s),s)},
 lr:function(a){var t=0,s=P.a7(u.z),r=this,q,p,o
 var $async$lr=P.a1(function(b,c){if(b===1)return P.a4(c,s)
 while(true)switch(t){case 0:r.e.sp(0,C.nn)
@@ -48511,9 +48511,9 @@ return P.a5(null,s)}})
 return P.a6($async$lr,s)},
 As:function(a){var t=this
 t.e.sp(0,C.nn)
-t.aN(new E.VF(t,new E.lA(a,"Promise",!0,null)))
+t.aN(new E.VF(t,new E.lA(a,"lordvins226",!0,null)))
 t.lr(a)},
-I:function(a){var t=null,s=E.a1X(t,t,!0,t,L.bE("Flutter and Dialogflow",t,t,t,t,t,t,t)),r=this.d.length,q=S.ih(t,t,t,K.af(a,!1).ch,t,t,C.ab)
+I:function(a){var t=null,s=E.a1X(t,t,!0,t,L.bE("Chatbot",t,t,t,t,t,t,t)),r=this.d.length,q=S.ih(t,t,t,K.af(a,!1).ch,t,t,C.ab)
 return M.a3V(s,t,T.jG(H.c([new T.jR(1,C.iy,new B.qy(new G.Se(new E.VG(this),r,!0,!0,!0),new V.al(8,8,8,8),C.t,!0,t,!0,C.nS,!1,t,r,C.a6,C.r4,t),t),new Z.yd(1,t),M.cy(t,this.KV(),t,t,q,t,t,t,t,t,t)],u.p),C.as,C.au,C.a7),t,t)}}
 E.VE.prototype={
 $0:function(){var t=this.a
