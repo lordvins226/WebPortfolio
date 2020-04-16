@@ -7815,7 +7815,7 @@ this.b=b},
 a9n:function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2){var t=null
 return new N.eK(p,o,n,a1,a0,g,d,f,s,h,k,j,t,t,t,t,t,e,b,q,a2,r,c,i,!1,t,m,l)},
 EQ:function(a,b,c,d,e,f){var t=null
-return new N.EP(d,t,t,t,t,t,a,t,t,t,t,t,t,t,t,t,t,t,T.hB(H.c([b,C.yG,c],u.p),C.as,C.au,C.pP),e,t,f,C.ar,t,!1,t,t,t)},
+return new N.EP(d,t,t,t,t,t,t,t,t,a,t,t,t,t,t,t,t,t,T.hB(H.c([b,C.yG,c],u.p),C.as,C.au,C.pP),e,t,f,C.ar,t,!1,t,t,t)},
 eK:function eK(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,a0,a1,a2,a3,a4,a5,a6,a7){var _=this
 _.c=a
 _.d=b
@@ -29854,7 +29854,8 @@ if(a instanceof N.eK||!1)return s.cy.a
 return C.q}return null},
 xp:function(a){var t=this.ip(a)
 return P.aX(31,(16711680&t.gp(t))>>>16,(65280&t.gp(t))>>>8,(255&t.gp(t))>>>0)},
-qb:function(a){var t=this.z
+qb:function(a){var t=a.ch
+if(t==null)t=this.z
 if(t==null){t=this.ip(a)
 t=P.aX(31,(16711680&t.gp(t))>>>16,(65280&t.gp(t))>>>8,(255&t.gp(t))>>>0)}return t},
 qf:function(a){var t=this.Q
@@ -30229,9 +30230,7 @@ else a.cE(b,c)
 break}a.c2(0)},
 Fn:function(a,b){var t,s,r=this,q=new H.aK(new H.aL()),p=r.e,o=r.db,n=o.b
 o=o.a
-o=n.a9(0,o.gp(o))
-p=p.a
-q.sap(0,P.aX(o,(16711680&p)>>>16,(65280&p)>>>8,(255&p)>>>0))
+q.sap(0,P.aX(n.a9(0,o.gp(o)),(16711680&p.gp(p))>>>16,(65280&p.gp(p))>>>8,(255&p.gp(p))>>>0))
 t=T.a00(b)
 p=r.b.k4
 s=new P.v(0,0,0+p.a,0+p.b)
@@ -30257,9 +30256,7 @@ t.fy=null
 t.ns()},
 Fn:function(a,b){var t,s,r,q,p=this,o=new H.aK(new H.aL()),n=p.e,m=p.fx,l=m.b
 m=m.a
-m=l.a9(0,m.gp(m))
-n=n.a
-o.sap(0,P.aX(m,(16711680&n)>>>16,(65280&n)>>>8,(255&n)>>>0))
+o.sap(0,P.aX(l.a9(0,m.gp(m)),(16711680&n.gp(n))>>>16,(65280&n.gp(n))>>>8,(255&n.gp(n))>>>0))
 t=p.z
 if(p.db)t=P.a06(t,p.b.k4.hP(C.j),p.fr.y)
 n=p.dy
@@ -30340,7 +30337,7 @@ p.a.push(q)
 o.cf(r.gN4())
 o.cY(0)
 r.dx=o
-j=j.a
+j=j.gp(j)
 r.db=new R.aH(u.m.a(o),new R.m2(0,(4278190080&j)>>>24),u.xD.j("aH<a8.T>"))
 s.CZ(r)
 l.m(0,a,r)
@@ -31531,8 +31528,21 @@ if(s!=null)for(s=P.ds(s,s.r);s.u();)s.d.sdE(0,t)
 this.cO()}}
 B.qH.prototype={
 gcS:function(a){return this.c!=null||!1},
-I:function(a){var t=this,s=K.af(a,!1),r=M.Jv(a),q=r.na(t),p=s.Y.ch.dg(r.ip(t)),o=r.qb(t),n=r.qf(t),m=s.dx,l=s.dy,k=r.qa(t),j=r.qc(t),i=r.qg(t),h=r.qe(t),g=r.ql(t),f=s.b,e=new S.aa(r.a,1/0,r.b,1/0).DG(null,null),d=r.qn(t),c=s.bd
-return Z.Ql(C.a3,!1,t.go,t.k3,e,0,k,!0,q,o,j,t.k4,m,h,n,i,c,t.e,t.d,t.c,g,d,l,p,f)}}
+I:function(a){var t,s,r,q,p,o,n,m,l,k,j,i,h=this,g=K.af(a,!1),f=M.Jv(a),e=f.na(h),d=g.Y.ch.dg(f.ip(h)),c=h.ch
+if(c==null)c=f.qb(h)
+t=f.qf(h)
+s=g.dx
+r=g.dy
+q=f.qa(h)
+p=f.qc(h)
+o=f.qg(h)
+n=f.qe(h)
+m=f.ql(h)
+l=g.b
+k=new S.aa(f.a,1/0,f.b,1/0).DG(null,null)
+j=f.qn(h)
+i=g.bd
+return Z.Ql(C.a3,!1,h.go,h.k3,k,0,q,!0,e,c,p,h.k4,s,n,t,o,i,h.e,h.d,h.c,m,j,r,d,l)}}
 B.qI.prototype={}
 U.hn.prototype={}
 U.FA.prototype={
@@ -48591,7 +48601,7 @@ O.B6.prototype={
 Fw:function(a){var t=null,s=F.b3(a,!1).a.a<800?F.b3(a,!1).a.b*0.25:F.b3(a,!1).a.a*0.25,r=F.b3(a,!1).a.a<800?F.b3(a,!1).a.b*0.25:F.b3(a,!1).a.a*0.25
 return M.cy(t,K.a_q(U.q6("assets/avatar.jpg")),t,t,t,t,s,t,t,t,r)},
 Fv:function(a){var t=null,s=u.p
-return T.jG(H.c([L.bE("Hello.\nI'm Kevin Wilfried ",t,t,t,t,A.cX(t,t,C.dM,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t,2),L.bE("Web Frontend & Mobile Dev",t,t,t,t,A.cX(t,t,C.m,t,t,t,t,t,t,t,t,t,t,C.p3,t,t,!0,t,t,t,t,t,t),t,3),new T.bm(t,10,t,t),L.bE("I am enthusiastic about mobile development and Blockchain.\nI want to make africains life better using tech.\nA computer systems and network student interested\nin challenges which require designing solutions that can make\na significant impact in people lives like blockchain and DApps",t,t,t,!0,A.cX(t,t,C.m,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t,1.5),new T.bm(t,20,t,t),T.hB(H.c([D.a3I(L.bE("Github",t,t,t,t,t,t,t),C.mu,new O.Q0(),new V.al(10,10,10,10),new S.cW(C.v)),new T.bm(5,t,t,t),N.EQ(C.mu,new T.bm(20,20,U.q6("assets/chatbot.png"),t),L.bE("ChatBot",t,t,t,t,t,t,t),new O.Q1(a),new V.al(10,10,10,10),new S.cW(C.v)),new T.bm(20,t,t,t)],s),C.as,C.mt,C.a7)],s),C.cD,C.au,C.a7)},
+return T.jG(H.c([L.bE("Hello.\nI'm Kevin Wilfried ",t,t,t,t,A.cX(t,t,C.dM,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t,2),L.bE("Web Frontend & Mobile Dev",t,t,t,t,A.cX(t,t,C.m,t,t,t,t,t,t,t,t,t,t,C.p3,t,t,!0,t,t,t,t,t,t),t,3),new T.bm(t,10,t,t),L.bE("I am enthusiastic about mobile development and Blockchain.\nI want to make africains life better using tech.\nA computer systems and network student interested\nin challenges which require designing solutions that can make\na significant impact in people lives like blockchain and DApps",t,t,t,!0,A.cX(t,t,C.m,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t,1.5),new T.bm(t,20,t,t),T.hB(H.c([D.a3I(L.bE("Github",t,t,t,t,t,t,t),C.mu,new O.Q0(),new V.al(10,10,10,10),new S.cW(C.v)),new T.bm(5,t,t,t),N.EQ(C.mu,new T.bm(18,18,U.q6("assets/chatbot.png"),t),L.bE("ChatBot",t,t,t,t,t,t,t),new O.Q1(a),new V.al(10,10,10,10),new S.cW(C.v)),new T.bm(20,t,t,t)],s),C.as,C.mt,C.a7)],s),C.cD,C.au,C.a7)},
 I:function(a){var t=this,s=u.p
 return B.BJ(T.hB(H.c([t.Fw(a),t.Fv(a)],s),C.as,C.mt,C.a7),T.jG(H.c([t.Fw(a),new T.bm(null,F.b3(a,!1).a.b*0.1,null,null),t.Fv(a)],s),C.as,C.jE,C.a7))}}
 O.Q0.prototype={
