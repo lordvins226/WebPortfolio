@@ -48824,7 +48824,7 @@ return s==null?t.c:s}}}
 B.Cp.prototype={
 xY:function(a){var t=null
 return H.c([N.EV(t,new T.bm(20,20,U.q8("assets/github.png"),t),L.bw("Github",t,t,t,t,t,t,t),new B.Sv(),t,t),N.EV(t,new T.bm(20,20,U.q8("assets/twitter.png"),t),L.bw("Twitter",t,t,t,t,t,t,t),new B.Sw(),t,t),N.EV(t,new T.bm(20,20,U.q8("assets/linkedin.png"),t),L.bw("Linkedin",t,t,t,t,t,t,t),new B.Sx(),t,t),N.EV(t,new T.bm(20,20,U.q8("assets/Discord-Logo-Color.png"),t),L.bw("Discord",t,t,t,t,t,t,t),new B.Sy(a),t,t)],u.p)},
-I:function(a){var t,s,r=null,q="\xa9 Kevin Wilfried 2020",p="Make With Flutter\ud83d\udc9c\ud83d\udc9c\ud83d\ude0e",o=u.p,n=T.hD(H.c([L.bw(q,r,r,r,r,A.cK(r,r,C.m,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),C.bE,r),L.bw(p,r,r,r,r,A.cK(r,r,C.m,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),C.bE,r),T.hD(this.xY(a),C.as,C.au,C.a7)],o),C.as,C.jE,C.a7)
+I:function(a){var t,s,r=null,q="\xa9 Kevin Wilfried 2020",p="Made With Flutter\ud83d\udc9c\ud83d\udc9c\ud83d\ude0e",o=u.p,n=T.hD(H.c([L.bw(q,r,r,r,r,A.cK(r,r,C.m,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),C.bE,r),L.bw(p,r,r,r,r,A.cK(r,r,C.m,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),C.bE,r),T.hD(this.xY(a),C.as,C.au,C.a7)],o),C.as,C.jE,C.a7)
 o=H.c([],o)
 o.push(L.bw(q,r,r,r,r,A.cK(r,r,C.m,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),C.bE,r))
 o.push(L.bw(p,r,r,r,r,A.cK(r,r,C.m,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),C.bE,r))
