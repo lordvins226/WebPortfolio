@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Kevin Portfolio">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="portfolio">
+    <link rel="apple-touch-icon" href="icons/apple-icon-57x57.jpg">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg"/>
+
+    <title>Lordvins226</title>
+    <meta name="robots" content="index, follow"/>
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+    <link rel="canonical" href="/"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Kevin Portfolio"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:url" content="/"/>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .loader {
+            border: 10px solid #f3f3f3;
+            border-radius: 15%;
+            border-top: 8px solid #251335;
+            border-right: 8px solid#a543f5;
+            border-bottom: 8px solid #251335;
+            border-left: 8px solid #a543f5;
+            width: 80px;
+            height: 80px;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="loading">
+    <div class="loader"></div>
+</div>
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=973883364');
+      });
+    }
+
+
+
+
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
