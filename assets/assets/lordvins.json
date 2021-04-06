@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lordvins-rxilis",
+  "private_key_id": "a7f55a22f3fe25ddec64a0ea2648e2790157dd22",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCrCscIA/1iAWGR\nSpGQ0SSqitWoE7NXoxDv9NI0PJk6+sZ6KB4/kJAeGlxL0oBuhTBYO1Miz+RR2CPI\n6gx+xN0ckLfYBPGKaOsabwVSkfB+Z+e8VrDshzuXKvsv+YVVsb1mMRhT8I4VQqIn\nBumtz9+xd+D4CIdDb/XRsI2K09Kp8GuqILlt6uwkvsjBbkTypV6+nH2it3GH1yOF\nLM2gJPOz1pVczk1eD6Ja98vpzEGBQeUl3PqSvGBydPqlgB9gIE2/uOWw/hN4MKId\nl5BdrPymc3RWLnes2ptRARBksfLASxth33Jars4u9AawCf+pfPzEfqb5SvUCzbSb\nsBod7c7XAgMBAAECggEAHGS7numv+cGqRV467+69cXopTFoziWF5LFGt8MdRKz36\nDh6ezC/eshXvgGlqB0Qg6boKFltV1v2puG6csxFRy1jSzA92Briys+lThDN/LYdo\n1sEQDxPGoVTx7Ig1dCup+fmTGkwdVLYtCOGC5TxUMWJp0YLzlrmn9a6jWzUdYYxR\nM4M08TnLUAI/4SOX533qAW1JSaQzz70HtZ8qo2Gp30YK+1yr4nqzyEzADKslgVVh\nfYM0ofE5yuVFOfJgHJOfDRDweDFIAiLFT4ZOtPfZFb1wNiIo5DmQQ7Wr14eOuawU\nkAt2kO8AhrM5r0HiW7BcHexKiItbXhwLd2Hiy6j8gQKBgQDnlx1f0HsylAdcgjxR\ndGbqP+pUR0xKYlIBUS3vxpqPNct5jxjEPq8Cio0QHAUtlk2Rk/zXBHKP4rtF+B3L\n6NxXnOtvEnfQ6ThVDbsfP1+yKjfYNzKuKp45zbOCucQNDDgYr8kxMos0c8cWoL2+\nGRNsUzOKU4VUimbPjzYgNarh4QKBgQC9EevK9fU16C7iPrSd8NfvY3bAu5fj3Yr7\ndLtbuhilcmPIVICDyw930cjtX5wDIwf2khAnc1tP7FlmIk939p7ovRIzN0bk/3Hb\n1xkVUWnfMbzPod59mtajPmv7Qwf6qfvt2CjESvGKIR32ivx21RL9roreqc5h5Au/\nBUqQsB83twKBgHN2+VNDG5ltCnqKCE7ITWNveIKKhbP0b1RuyAtrJrZOKOOzf7Kg\nWhtXPtuQTNicvpHdicseUYwBjENnYFvA/tLDzvIy7//9t3NYhDohG7I1sGAhrSf+\n4aKKN3zu55tlwzYztojL3XHKY7GZdOCpmfCBTwoheDFdS8MicOcAOvGhAoGAAQJ9\nfeH+Y0FQLski8cz9ejvPwIu/7ema+mjPL1g5FXkc6074OLv24y7tocbm8GVZf4mc\nKHnHPRAIEjGQtxVMF/YaiMd8y3BJzWDCs4hxxk1fssQsigMvrkOBFCBxhHcv7z8+\nSH4V+CThIhXv7zqIFW6/Mx05CvDK10RR95/ZKtUCgYEAnFTa9qDeMK8UVM3UPpru\n678UxcpH1YmGYt4bRkqwQcsmOGP7rRf/oHCkvkCeLDpIQRTMI9ayevpefw20a79x\nhybyi3bDaMPqWjEeCgjt9g40uRHp52N0Kdt3i3weFOYUBoFO05sD7QZQDTHVHCHQ\nJLzVgsEfgPhtXblUOaSUqas=\n-----END PRIVATE KEY-----\n",
+  "client_email": "lordvins@lordvins-rxilis.iam.gserviceaccount.com",
+  "client_id": "116132699659550476569",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lordvins%40lordvins-rxilis.iam.gserviceaccount.com"
+}
